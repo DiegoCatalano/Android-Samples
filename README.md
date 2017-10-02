@@ -7,14 +7,16 @@ The project is organized with several examples that can be accessed separately. 
 
 Last Update: 10/02/2017
 
-![picc](https://user-images.githubusercontent.com/5301914/31084117-f675c72c-a769-11e7-8483-43d5d9fb1fee.png)
+<p align="center">
+  <img width="324" height="576" src="https://user-images.githubusercontent.com/5301914/31084117-f675c72c-a769-11e7-8483-43d5d9fb1fee.png">
+</p>
 
 Currently implemented
 ----
 
- - Hello Android: Basic components like TextView, Button, EditText and Toast class.
- - Animations: Rotate, Translate and apply alpha effect in the ImageView.
- - Video: Load a video from raw resource directory, integrate the MediaController class and position the VideoView in the bottom.
+ - Hello Android: Basic components like `TextView`, `Button`, `EditText` and `Toast` class.
+ - Animations: Rotate, Translate and apply alpha effect in the `ImageView`.
+ - Video: Load a video from raw resource directory, integrate the `MediaController` class and position the `MediaController` in the bottom of the `VideoView`.
  - Music: Load a mp3 file from raw resource directory, control the volume and the length of the music using the SeekBar.
  - ListView: TODO
  - Alert Dialogs: TODO
