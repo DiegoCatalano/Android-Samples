@@ -7,6 +7,8 @@ The project is organized with several examples that can be accessed separately. 
 
 Last Update: 10/02/2017
 
+![picc](https://user-images.githubusercontent.com/5301914/31084117-f675c72c-a769-11e7-8483-43d5d9fb1fee.png)
+
 Currently implemented
 ----
 
