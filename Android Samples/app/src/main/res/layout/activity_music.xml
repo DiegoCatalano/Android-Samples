@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="catalano.demoapp.music.MusicActivity">
+
+    <Button
+        android:id="@+id/btn_music_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="31dp"
+        android:text="Play"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:id="@+id/btn_music_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seek_music_volume"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/txt_music_volume"
+        android:text="Pause"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <SeekBar
+        android:id="@+id/seek_music_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_music_play"
+        android:layout_below="@+id/btn_music_play"
+        android:layout_marginTop="47dp"
+        android:layout_alignEnd="@+id/btn_music_pause" />
+
+    <TextView
+        android:id="@+id/txt_music_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seek_music_volume"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="Volume" />
+
+    <TextView
+        android:id="@+id/txt_music_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txt_music_volume"
+        android:layout_below="@+id/seek_music_volume"
+        android:layout_marginTop="42dp"
+        android:text="Length" />
+
+    <SeekBar
+        android:id="@+id/seek_music_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/seek_music_volume"
+        android:layout_alignStart="@+id/seek_music_volume"
+        android:layout_below="@+id/txt_music_time" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/seek_music_length"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A New Beginning"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://www.bensound.com"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FREE Creative Commons License"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
